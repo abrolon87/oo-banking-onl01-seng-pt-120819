@@ -7,11 +7,12 @@ class BankAccount
   end
 
   def deposit(amount)
-    self << amount
+    @balance << amount
+
   end
 
   def display_balance
-
+    "Your balance is $#{@balance}."
   end
 
   def valid?
@@ -19,6 +20,6 @@ class BankAccount
   end
 
   def close_account
-
+    self.clear
   end
 end

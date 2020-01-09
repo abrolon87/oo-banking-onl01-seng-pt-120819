@@ -5,12 +5,12 @@ class Transfer
     @recevier = receiver
   end # your code here
 
-  def
-
-  end
-
-  def
-
-  end
+  # def
+  #
+  # end
+  #
+  # def
+  #
+  # end
 
 end
