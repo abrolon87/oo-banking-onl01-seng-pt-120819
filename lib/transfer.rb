@@ -4,6 +4,7 @@ class Transfer
     @sender = sender
     @recevier = receiver
     @status = "pending"
+    @transfer_amount = 50
   end # your code here
 
   # def
