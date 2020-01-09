@@ -16,6 +16,11 @@ class BankAccount
   end
 
   def valid?
+    if status == "open" && balance > 0
+      execute_transaction
+    else
+      "not valid"
+    end 
 
   end
 
